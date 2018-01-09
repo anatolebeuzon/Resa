@@ -51,7 +51,7 @@ export default class App extends React.Component {
 
     return (
       <div className="h-100">
-        <Raven dsn="https://ca0aebba25124b4b90d02d27a9aac05b@sentry.io/208411" />
+        <Raven dsn="" />
         <Provider store={store}>
           <Switch>
             <Route path="/login" component={Login} />

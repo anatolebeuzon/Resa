@@ -1,0 +1,42 @@
+{
+  "name": "back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "CONFIG_ENV=dev ./bin/www",
+    "start-prod": "CONFIG_ENV=prod ./bin/www",
+    "lint": "eslint --ext .js .",
+    "lint-fix": "eslint --ext .js --fix .",
+    "prettier": "git diff — name-only HEAD | xargs prettier - write \"{,!(node_modules)/**/}*.js\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "ics": "^2.0.1",
+    "joi": "^13.1.0",
+    "json2csv": "^3.11.5",
+    "jsonwebtoken": "^8.1.0",
+    "juice": "^4.2.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "morgan": "^1.9.0",
+    "node-ical": "^0.5.4",
+    "nodemailer": "^4.4.1",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "soap": "^0.23.0",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

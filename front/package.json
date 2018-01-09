@@ -1,0 +1,48 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.1",
+    "@fortawesome/fontawesome-free-regular": "^5.0.3",
+    "@fortawesome/fontawesome-free-solid": "^5.0.3",
+    "@fortawesome/react-fontawesome": "0.0.17",
+    "classnames": "^2.2.5",
+    "date-fns": "^1.29.0",
+    "fuse.js": "^3.2.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "raven-js": "^3.21.0",
+    "react": "^16.2.0",
+    "react-collapse": "^4.0.3",
+    "react-dimensions": "^1.3.1",
+    "react-dom": "^16.2.0",
+    "react-image": "^1.3.1",
+    "react-infinite-calendar": "^2.3.1",
+    "react-infinite-scroller": "^1.1.2",
+    "react-input-slider": "^4.0.1",
+    "react-motion": "^0.5.2",
+    "react-raven": "^1.2.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.17",
+    "react-tooltip": "^3.4.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "redux-logger": "^3.0.6"
+  },
+  "scripts": {
+    "start": "PORT=80 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix src/",
+    "prettier": "prettier --write \"src/**/*.*\""
+  }
+}

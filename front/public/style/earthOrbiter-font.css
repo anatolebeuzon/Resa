@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "EarthOrbiter";
+  src: url("../fonts/earthorbiter.ttf");
+}
+
+.earthOrbiter {
+  font-family: "EarthOrbiter";
+}

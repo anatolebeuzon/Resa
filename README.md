@@ -6,6 +6,8 @@ It is used in production at French engineering school CentraleSupélec and enabl
 
 [Watch the 1-minute demo >>](https://vimeo.com/250163250)
 
+[[https://github.com/oxlay/Resa/blob/master/images-for-readme/booking-popup.png]]
+
 ## General structure
 
 It consists of two parts:
@@ -31,6 +33,8 @@ Advanced features:
 * see all the events planned for a room on a particular day
 * use direct link to book a particular room: `resa.example.com/recherche/{roomId}` (especially useful if you put QR codes outside of rooms that can be booked)
 
+[[https://github.com/oxlay/Resa/blob/master/images-for-readme/room-list.png]]
+
 ## Built with
 
 * [React](https://reactjs.org/), a JavaScript library for building user interfaces
@@ -51,7 +55,7 @@ You will need Git and NPM, as well as a CAS server for authentication.
 #### Installing
 
 ```
-git clone INSERT URL HERE
+git clone https://github.com/oxlay/Resa.git
 cd front
 npm install
 ```
@@ -101,7 +105,7 @@ You will need Git, NPM, Node 8+, and a GEODE server.
 #### Installing
 
 ```
-git clone INSERT URL HERE
+git clone https://github.com/oxlay/Resa.git
 cd back
 npm install
 ```

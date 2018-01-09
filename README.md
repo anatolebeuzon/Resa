@@ -6,7 +6,7 @@ It is used in production at French engineering school CentraleSupélec and enabl
 
 [Watch the 1-minute demo >>](https://vimeo.com/250163250)
 
-[[https://github.com/oxlay/Resa/blob/master/images-for-readme/booking-popup.png]]
+[[https://github.com/oxlay/Resa/blob/master/images-for-readme/booking-popup.png|alt=bookingPopup]]
 
 ## General structure
 
@@ -33,7 +33,7 @@ Advanced features:
 * see all the events planned for a room on a particular day
 * use direct link to book a particular room: `resa.example.com/recherche/{roomId}` (especially useful if you put QR codes outside of rooms that can be booked)
 
-[[https://github.com/oxlay/Resa/blob/master/images-for-readme/room-list.png]]
+[[https://github.com/oxlay/Resa/blob/master/images-for-readme/room-list.png|alt=roomList]]
 
 ## Built with
 

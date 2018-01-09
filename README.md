@@ -61,8 +61,6 @@ npm install
 Before going further, we need to configure the front-end. Create a `front/src/config.js` file with the following content:
 
 ```
-// TODO: remove config folder from open-source project
-
 const config = {
   cas: {
     loginUrl: "https://cas.example.com/login",
@@ -82,7 +80,7 @@ export default config;
 
 Notes:
 
-* by default, authentication uses Central Authentication Service (CAS). You may need to authorize Resa's URLs on your CAS server for authentication to work. TODO: details about expected attributes
+* by default, authentication uses Central Authentication Service (CAS). You may need to authorize Resa's URLs on your CAS server for authentication to work
 * a static asset server can be used to serve images of rooms. The image for room with id `resourceId` will be fetched from `${config.imagesBaseURL}${resourceId}` ; if a 404 is received, there will be a silent error and no image nor any error will be displayed. Leave `config.imagesBaseURL` blank is you do not want to use this feature
 * LocalStorage is used to store the user's full name and the JWT token that authenticates his back-end requests
 
